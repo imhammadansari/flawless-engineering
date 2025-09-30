@@ -12,8 +12,8 @@ const Footer = () => {
         background: "linear-gradient(to right, #e8e8ea, #f0f0f1, #ffffff)",
       }}>
 
-        <div className='flex flex-col w-full lg:w-1/3'>
-          <img className='w-20 h-20' src="/logo.png" alt="" />
+        <div className='flex flex-col w-full lg:w-1/3 gap-2'>
+          <img className='w-24 h-24 lg:w-20 lg:h-20' src="/logo.png" alt="" />
           <p className='text-sm lg:text-sm text-gray-600'>Flawless Engineering is a trusted name in telecom, energy, and civil infrastructure solutions across Pakistan. With a commitment to innovation, quality, and sustainability, we deliver projects that empower industries, communities, and future generations.</p>
         </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
 
             <div className='flex gap-4 pt-2 lg:pt-0'>
               <FaPhoneAlt className='text-base' />
-              <p className='text-base lg:text-sm w-4/5'>+92 3158235669</p>
+              <p className='text-base lg:text-sm w-4/5'></p>
             </div>
 
             <div className='flex gap-4 pt-2 lg:pt-0'>

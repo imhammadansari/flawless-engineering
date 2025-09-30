@@ -134,7 +134,7 @@ const AboutPage = () => {
               Thank you for your unwavering dedication and trust in this journey.
               <br /><br />
               <span className="font-semibold">With respect and determination,</span><br />
-              <span className="font-bold text-[#472c75]">CEO Name</span>
+              <span className="font-bold text-[#472c75]">Mr. Ali Shouja</span>
             </p>
           </div>
 

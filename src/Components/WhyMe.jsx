@@ -5,25 +5,25 @@ const features = [
     id: 1,
     title: "Ensuring All Sites are HSE Compliant",
     desc: "Ensuring all sites are HSE compliant by following strict health, safety, and environmental standards at every stage of work.",
-    icon: "/focus-icons/icons8-guarantee-96.png",
+    icon: "/focus-icons/icons8-guarantee-100.png",
   },
   {
     id: 2,
     title: "Improving Governance & Eliminating Theft",
     desc: "Improving governance and eliminating theft by enforcing transparent processes, strict monitoring, and accountability at all levels.",
-    icon: "/focus-icons/icons8-improve-96.png",
+    icon: "/focus-icons/icons8-improve-100.png",
   },
   {
     id: 3,
     title: "Solving Critical Telecom Problems with Teamwork",
     desc: "Solving critical telecom problems through effective teamwork, collaboration, and timely decision-making.",
-    icon: "/focus-icons/icons8-teamwork-96.png",
+    icon: "/focus-icons/icons8-teamwork-100.png",
   },
   {
     id: 4,
     title: "Services offered by 24/7 with Quality Work",
     desc: "Offering 24/7 services with a commitment to quality work, reliability, and customer satisfaction.",
-    icon: "/focus-icons/icons8-support-96.png",
+    icon: "/focus-icons/icons8-support-100.png",
   },
 ];
 
@@ -44,7 +44,7 @@ const WhyMe = () => {
             className="relative bg-gray-100 shadow-md rounded-lg p-6 pl-16 group overflow-hidden hover:shadow-xl transition-all duration-300"
           >
             {/* Left vertical bar */}
-            <div className="absolute top-0 left-0 h-full w-2 bg-gradient-to-b from-[#472c75] to-blue-400 rounded-r"></div>
+            <div className="absolute top-0 left-0 h-full w-2 bg-gradient-to-b from-[#472c75] to-[#472c75] rounded-r"></div>
 
             {/* Number Badge */}
             <div className="absolute -top-1 -left-1 bg-[#472c75] text-white w-10 h-10 flex items-center justify-center rounded-full text-base font-semibold z-10 shadow-lg">

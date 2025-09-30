@@ -19,7 +19,7 @@ const CoreValues = () => {
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-6'>
                 
                 <div className='flex flex-col items-center rounded-lg bg-gray-100 py-2 md:py-4 px-2 md:px-4 transition-shadow duration-300 ease-in-out hover:shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:hover:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
-                    <img className=' pb-4' src='/core-values/icons8-courage-symbol-96.png' />
+                    <img className=' pb-4' src='/core-values/icons8-courage-symbol-100.png' />
                     <h1 className='text-lg text-[rgb(38,50,70)] md:text-[24px]'>Courage</h1>
                     <p className='text-sm md:text-base text-gray-600'>
                       Courage at Flawless means stepping into challenges with confidence and innovation. 
@@ -29,7 +29,7 @@ const CoreValues = () => {
                 </div>
                 
                 <div className='flex flex-col items-center rounded-lg bg-gray-100 py-2 md:py-4 px-2 md:px-4 transition-shadow duration-300 ease-in-out hover:shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:hover:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
-                    <img className='pb-4' src='/core-values/icons8-safety-96.png' />
+                    <img className='pb-4' src='/core-values/icons8-safety-100.png' />
                     <h1 className='text-lg text-[rgb(38,50,70)] md:text-[24px]'>Safety</h1>
                     <p className='text-sm md:text-base text-gray-600'>
                       Safety is at the core of every Flawless project. From site operations 
@@ -39,7 +39,7 @@ const CoreValues = () => {
                 </div>
                 
                 <div className='flex flex-col items-center rounded-lg bg-gray-100 py-2 md:py-4 px-2 md:px-4 transition-shadow duration-300 ease-in-out hover:shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:hover:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
-                    <img className=' pb-4' src='/core-values/icons8-team-96.png' />
+                    <img className=' pb-4' src='/core-values/icons8-team-100.png' />
                     <h1 className='text-lg text-[rgb(38,50,70)] md:text-[24px]'>One Team</h1>
                     <p className='text-sm md:text-base text-gray-600'>
                       We believe in unity and collaboration. At Flawless, every department, 
@@ -49,7 +49,7 @@ const CoreValues = () => {
                 </div>
 
                 <div className='flex flex-col items-center rounded-lg bg-gray-100 py-2 md:py-4 px-2 md:px-4 transition-shadow duration-300 ease-in-out hover:shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:hover:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
-                    <img className='pb-4' src='/core-values/icons8-integrity-96.png' />
+                    <img className='pb-4' src='/core-values/icons8-integrity-100.png' />
                     <h1 className='text-lg text-[rgb(38,50,70)] md:text-[24px]'>Integrity</h1>
                     <p className='text-sm md:text-base text-gray-600'>
                       Integrity defines Flawless Engineering. We act with honesty, fairness, 

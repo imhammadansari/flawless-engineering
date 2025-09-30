@@ -55,7 +55,7 @@ const Contact = () => {
             <div className='inset-0 z-30 bg-black/80 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
-                <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[#472c75]'>Contact Us</h1>
+                <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-white'>Contact Us</h1>
 
             </div>
 
@@ -66,21 +66,21 @@ const Contact = () => {
                     <div className='w-full h-full flex flex-col text-center gap-2 items-center px-2 md:px-4'>
                         <HiBuildingOffice className='text-6xl'/>
                         <h1 className='text-2xl md:text-2xl '>Our Office</h1>
-                                <p className='text-base text-gray-600'>Flat # 202, Chapel Garden, Block-M, Abul Hussain Isphani Road</p>
+                                <p className='text-base text-gray-600'>Zia Masjid  Stop Near, Bakri CNG Qureshi, Plaza, Rawalpindi</p>
 
                     </div>
                     
                     <div className='w-full h-full flex flex-col text-center gap-2 items-center px-2 md:px-4'>
                         <MdEmail className='text-6xl'/>
                         <h1 className='text-2xl md:text-2xl '>Email</h1>
-                            <p className='text-base text-gray-600'>support@ishalenterprises.com.pk</p>
+                            <p className='text-base text-gray-600'></p>
 
                     </div>
                     
                     <div className='w-full h-full flex flex-col text-center gap-2 items-center px-2 md:px-4'>
                         <FaPhoneAlt className='text-6xl'/>
                         <h1 className='text-2xl md:text-2xl '>Call Us</h1>
-                            <p className='text-base text-gray-600'>+92 3158235669</p>
+                            <p className='text-base text-gray-600'></p>
 
                     </div>
 

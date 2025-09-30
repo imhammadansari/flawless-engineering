@@ -102,7 +102,7 @@ const Header = () => {
 
                     {/* Mobile Menu Icon */}
                     <ul className='flex md:hidden'>
-                        <IoMenu className='text-4xl' onClick={showMenu} />
+                        <IoMenu className='text-4xl text-[#472c75]' onClick={showMenu} />
                     </ul>
                 </div>
             </div>
