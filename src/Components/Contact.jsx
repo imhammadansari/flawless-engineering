@@ -55,7 +55,7 @@ const Contact = () => {
             <div className='inset-0 z-30 bg-black/80 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
-                <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(37,83,177)]'>Contact Us</h1>
+                <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[#472c75]'>Contact Us</h1>
 
             </div>
 
@@ -132,7 +132,7 @@ const Contact = () => {
                             </div>
 
                             <div className="">
-                                <button type='submit' className="px-8 py-2 hover:bg-none hover:text-[rgb(37,83,177)] text-white bg-gradient-to-br from-[rgba(40,123,172,1)] to-[rgb(37,83,177)]">
+                                <button type='submit' className="px-8 py-2 hover:bg-none hover:text-[#472c75] text-white bg-gradient-to-br from-[rgba(40,123,172,1)] to-[#472c75]">
                                     Send
                                 </button>
                             </div>

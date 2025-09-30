@@ -13,7 +13,7 @@ const SolarPanel = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const slideImages = ["/banner/13.jpg", "/banner/1.jpg", "/banner/15.jpg"];
+  const slideImages = ["/banner/solar-banner.jpg", "/banner/solar-banner-two.jpg"];
 
   return (
     <>
@@ -91,7 +91,7 @@ const SolarPanel = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            src="/services/solar-install.jpg"
+            src="/banner/solar.jpeg"
             alt="Solar Installation"
             className="rounded-lg shadow-lg"
           />
@@ -129,7 +129,7 @@ const SolarPanel = () => {
         </div>
 
         {/* Section 2 - Where We Work */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -158,19 +158,11 @@ const SolarPanel = () => {
             alt="Solar Sites"
             className="rounded-lg shadow-lg"
           />
-        </div>
+        </div> */}
 
         {/* Section 3 - Why Choose Us */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <motion.img
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            src="/solar-panel/2.jpg"
-            alt="Why Choose Us"
-            className="rounded-lg shadow-lg"
-          />
+          
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -187,6 +179,16 @@ const SolarPanel = () => {
               <li>Focus on long-term sustainability and cost efficiency</li>
             </ul>
           </motion.div>
+
+          <motion.img
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            src="/banner/solar-two.jpeg"
+            alt="Why Choose Us"
+            className="rounded-lg shadow-lg"
+          />
         </div>
 
         {/* Gallery */}
@@ -199,15 +201,11 @@ const SolarPanel = () => {
           <h2 className="text-2xl font-bold text-center mb-6">Solar Projects</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              "/solar-panel/1.jpg",
-              "/solar-panel/2.jpg",
-              "/solar-panel/3.jpg",
-              "/solar-panel/4.jpg",
-              "/solar-panel/5.jpg",
-              "/solar-panel/6.jpg",
-              "/solar-panel/7.jpg",
-              "/solar-panel/8.jpg",
-            ].map((src, i) => (
+              "/solar-panel/1.jpeg",
+              "/solar-panel/2.jpeg",
+              "/solar-panel/3.jpeg",
+              "/solar-panel/4.jpeg",
+              ].map((src, i) => (
               <motion.img
                 key={i}
                 src={src}

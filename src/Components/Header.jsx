@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import MenuBar from './MenuBar';
 import { Link, useNavigate } from 'react-router-dom';
+import { IoMenu } from 'react-icons/io5';
 // import { IoMenu } from "react-icons/io5";
 
 const Header = () => {
@@ -21,10 +22,11 @@ const Header = () => {
     const services = [
         { name: "Infrastructure Work", path: "/services/infrastructure-work" },
         { name: "Civil Work Construction", path: "/services/civil-work" },
-        { name: "Site Surveys for Acquiring Lands", path: "/services/site-surveys" },
+        { name: "Pole Light Installation", path: "/services/pole-light" },
+        // { name: "Site Surveys for Acquiring Lands", path: "/services/site-surveys" },
         { name: "Telecom Solutions & Services", path: "/services/telecom" },
-        { name: "LOSRs Surveys MW Planning & CW Design", path: "/services/losrs-surveys" },
-        { name: "Diesel Generator Rent", path: "/services/dg-rental" },
+        // { name: "LOSRs Surveys MW Planning & CW Design", path: "/services/losrs-surveys" },
+        // { name: "Diesel Generator Rent", path: "/services/dg-rental" },
         { name: "DB & Sunshade Fabrications", path: "/services/db-sunshade-fabrics" },
         { name: "Solar Structure & Panel Installation", path: "/services/solar-work" },
         { name: "Home Costruction & Renovation", path: "/services/home-construction-renovation" },
@@ -38,16 +40,16 @@ const Header = () => {
 
     return (
         <>
-            <div className='w-full flex bg-white justify-between h-auto py-2 pl-2 md:pl-7 pr-8 md:pr-12 lg:pr-16 sticky top-0 z-50 bg-gradient-to-r from-gray-100 via-gray-200 to-white shadow-md shadow-black'>
-                <div className='items-center flex pl-2 md:pl-4 py-4'>
+            <div className='w-full flex bg-white justify-between h-auto py-2 pl-2 md:pl-7 pr-2 md:pr-12 lg:pr-16 sticky top-0 z-50 bg-gradient-to-r from-gray-100 via-gray-200 to-white shadow-md shadow-black'>
+                <div className='items-center flex pl-2 md:pl-4'>
                     <Link className='cursor-pointer' to='/'>
                         {/* <img className='w-[13rem] md:w-auto' src='/logo-ishal-removebg-preview.png' alt='Logo' /> */}
-                        <h1>FLAWLESS ENGINEERING</h1>
+                        <img className='w-16 h-16 lg:w-20 lg:h-20' src="/logo.png" alt="" />
                     </Link>
                 </div>
 
                 <div className='flex w-1/2 items-center justify-end'>
-                    <ul className='hidden md:flex text-xl text-[rgb(37,83,177)] text-lg gap-6 relative'>
+                    <ul className='hidden md:flex text-xl text-[#472c75] text-lg gap-6 relative'>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
 
@@ -100,7 +102,7 @@ const Header = () => {
 
                     {/* Mobile Menu Icon */}
                     <ul className='flex md:hidden'>
-                        {/* <IoMenu className='text-4xl' onClick={showMenu} /> */}
+                        <IoMenu className='text-4xl' onClick={showMenu} />
                     </ul>
                 </div>
             </div>

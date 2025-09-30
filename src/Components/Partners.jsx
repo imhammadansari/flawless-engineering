@@ -42,17 +42,11 @@ const Partners = () => {
           >
             {[
               { src: "/clients/zong.png", w: "w-[6rem] md:w-[8rem]" },
-              { src: "/clients/telenor.png", w: "w-[7rem] md:w-[11rem]" },
               { src: "/clients/nokia.png", w: "w-[8rem] md:w-[12rem]" },
-              { src: "/clients/engro.png", w: "w-[5rem] md:w-[9rem]" },
-              { src: "/clients/moblink.png", w: "w-[6rem] md:w-[7rem]" },
-              { src: "/clients/huawei.png", w: "w-[5rem] md:w-[5rem]" },
-              { src: "/clients/iba-sukkur.png", w: "w-[5.5rem] md:w-[6.5rem]" },
-              { src: "/clients/pphi.png", w: "w-[4rem] md:w-[5rem]" },
-              { src: "/clients/NBP.png", w: "w-[6rem] md:w-[8rem]" },
-              { src: "/clients/SIUT.png", w: "w-[4rem] md:w-[5rem]" },
-              { src: "/clients/TAWAL.png", w: "w-[6.5rem] md:w-[8.5rem]" },
-              { src: "/clients/tcf.svg", w: "w-[8rem] md:w-[10rem]" },
+              { src: "/clients/jazz-logo.png", w: "w-[8rem] md:w-[12rem]" },
+              { src: "/clients/engro.png", w: "w-[5rem] md:w-[11rem]" },
+              { src: "/clients/nrtc.png", w: "w-[6rem] md:w-[7rem]" },
+              { src: "/clients/dha.png", w: "w-[6rem] md:w-[6rem]" },
             ].map((client, index) => (
               <SwiperSlide
                 key={index}

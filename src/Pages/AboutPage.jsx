@@ -64,7 +64,7 @@ const AboutPage = () => {
       <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pt-10 md:pt-8 px-4 md:px-6 lg:px-8 items-center justify-center'>
         <div className='w-full md:w-4/5 h-full flex flex-col'>
 
-          <h1 className='text-3xl sm:text-4xl lg:text-4xl py-6 md:py-14 xl:text-5xl pb-1 text-center text-[rgb(37,83,177)]'>
+          <h1 className='text-3xl sm:text-4xl lg:text-4xl py-6 md:py-14 xl:text-5xl pb-1 text-center text-[#472c75]'>
             FLAWLESS ENGINEERING
           </h1>
 
@@ -106,7 +106,7 @@ const AboutPage = () => {
         <div className="w-full md:w-4/5 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center py-8 gap-6">
           {/* Text Section */}
           <div className="w-full md:w-2/3 flex flex-col justify-center">
-            <h1 className="text-xl md:text-2xl lg:text-3xl text-[rgb(37,83,177)] pb-2">
+            <h1 className="text-xl md:text-2xl lg:text-3xl text-[#472c75] pb-2">
               Message from the CEO
             </h1>
 
@@ -134,7 +134,7 @@ const AboutPage = () => {
               Thank you for your unwavering dedication and trust in this journey.
               <br /><br />
               <span className="font-semibold">With respect and determination,</span><br />
-              <span className="font-bold text-[rgb(37,83,177)]">CEO Name</span>
+              <span className="font-bold text-[#472c75]">CEO Name</span>
             </p>
           </div>
 
@@ -152,14 +152,14 @@ const AboutPage = () => {
 
 
 
-      <OrganizationHierarcy />
+      {/* <OrganizationHierarcy /> */}
 
 
       <div className='w-full flex flex-col my-24 md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
 
         {/* Mission Section */}
         <div className='w-full justify-center flex flex-col'>
-          <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold pb-1 text-[rgb(37,83,177)]'>Our Mission</h1>
+          <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold pb-1 text-[#472c75]'>Our Mission</h1>
 
           <p className='pt-1 text-sm md:text-base lg:text-xl text-gray-600'>
             At Flawless Engineering, our mission is to deliver high-performance engineering, telecom, and infrastructure solutions with absolute precision. We strive to drive progress through cutting-edge technology, skilled execution, and a relentless focus on quality, safety, and sustainability.
@@ -196,7 +196,7 @@ const AboutPage = () => {
 
         {/* Vision Content */}
         <div className='w-full justify-center flex flex-col'>
-          <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold pb-1 text-[rgb(37,83,177)]'>Our Vision</h1>
+          <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold pb-1 text-[#472c75]'>Our Vision</h1>
 
           <p className='pt-1 text-sm md:text-base lg:text-xl text-gray-600'>
             To become Pakistan’s most trusted name in engineering, telecom, and clean energy solutions—driving digital transformation, powering sustainable infrastructure, and shaping resilient, connected communities.
@@ -223,7 +223,7 @@ const AboutPage = () => {
 
         {/* Future Content */}
         <div className='w-full justify-center flex flex-col'>
-          <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold pb-1 text-[rgb(37,83,177)]'>The Future</h1>
+          <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold pb-1 text-[#472c75]'>The Future</h1>
 
           <p className='pt-1 text-sm md:text-base lg:text-xl text-gray-600'>
             Flawless Engineering is focused on becoming a next-generation infrastructure leader—expanding our portfolio into smart cities, renewable energy systems, and advanced telecom technologies.

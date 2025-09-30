@@ -7,14 +7,13 @@ import { TypeAnimation } from "react-type-animation"; // 👈 Import
 
 const Banner = () => {
   const slideImages = [
-    "/banner/7.jpeg",
-    "/banner/6.jpeg",
-    "/banner/13.jpg",
-    "/banner/5.jpeg",
-    "/banner/3.jpeg",
-    "/banner/8.jpeg",
-    "/banner/4.jpeg",
-    "/banner/10.jpeg",
+    "/banner/civil-work-banner.jpg",
+    "/banner/solar-banner.jpg",
+    "/banner/civil-work-banner-three.jpg",
+    "/banner/construction-three.jpg",
+    "/banner/surveys-banner.jpeg",
+    "/banner/home-construction-banner-two.jpg",
+    "/banner/infrastructure-banner-two.jpg",
   ];
 
   return (
@@ -37,7 +36,7 @@ const Banner = () => {
                 <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
                   <TypeAnimation
                     sequence={[
-                      "FLAWLESS EINGINEERING",  // type
+                      "FLAWLESS ENGINEERING",  // type
                       2000,        // wait 2s
                       "",          // clear
                       1000,        // wait before retyping

@@ -36,7 +36,7 @@ const HomeConstruction = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const slideImages = ["/banner/2.jpg", "/banner/11.jpg"];
+  const slideImages = ["/banner/construction-four.jpg", "/banner/home-construction-banner-two.jpg"];
 
   return (
     <>
@@ -159,8 +159,8 @@ const HomeConstruction = () => {
             className="flex justify-center"
           >
             <img
-              className="w-full md:w-2/3 rounded-lg shadow-lg"
-              src="/services/home-constructions.jpg"
+              className="w-full md:w-4/5 rounded-lg shadow-lg"
+              src="/home-construction/4.jpg"
               alt="Home Construction"
             />
           </motion.div>
@@ -183,17 +183,11 @@ const HomeConstruction = () => {
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
             Project Gallery
           </h2>
-          <div className="columns-2 md:columns-4 gap-4 space-y-4">
-            <img src="/home-construction/1.png" className="rounded-md shadow-md" />
-            <img src="/home-construction/2.png" className="rounded-md shadow-md" />
-            <img src="/home-construction/3.png" className="rounded-md shadow-md" />
-            <img src="/home-construction/6.jpg" className="rounded-md shadow-md" />
-            <img src="/home-construction/7.jpg" className="rounded-md shadow-md" />
-            <img src="/home-construction/8.jpg" className="rounded-md shadow-md" />
-            <img src="/home-construction/9.jpg" className="rounded-md shadow-md" />
+          <div className="columns-2 md:columns-2 gap-4 space-y-4">
+            <img src="/home-construction/2.jpg" className="rounded-md shadow-md" />
+            <img src="/home-construction/3.jpg" className="rounded-md shadow-md" />
             <img src="/home-construction/4.jpg" className="rounded-md shadow-md" />
             <img src="/home-construction/5.jpg" className="rounded-md shadow-md" />
-            <img src="/services/home-constructions.jpg" className="rounded-md shadow-md" />
           </div>
         </section>
 

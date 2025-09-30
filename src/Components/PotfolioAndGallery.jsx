@@ -7,7 +7,10 @@ import { Navigation, Autoplay } from "swiper/modules";
 const PotfolioAndGallery = () => {
 
   const slideImages = [
-    "/banner/10.jpeg",
+    "/pole-light/7.jpg",
+    "/banner/solar-banner.jpg",
+    "/civil-page/5.jpeg",
+    "/db-sunshade/1.jpeg",
   ];
   return (
     <>
@@ -63,19 +66,16 @@ const PotfolioAndGallery = () => {
 
         <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>Solar Structure & Panel Installation</h1>
 
-        <div className='w-full justify-center gap-2 grid grid-cols-2 md:grid-cols-2'>
+        <div className='w-full justify-center gap-2 grid grid-cols-2 md:grid-cols-4'>
 
-          <img className='w-full' src='/solar-panel/1.jpg' />
-          <img className='w-full' src='/solar-panel/2.jpg' />
+          <img className='w-full' src='/solar-panel/1.jpeg' />
+          <img className='w-full' src='/solar-panel/2.jpeg' />
+          <img className='w-full' src='/solar-panel/3.jpeg' />
+          <img className='w-full' src='/solar-panel/4.jpeg' />
         </div>
 
-        <div className='w-full justify-centergap-2 grid grid-cols-1'>
 
-          <img className='w-full lg:w-auto' src='/solar-panel/6.jpeg' />
-
-        </div>
-
-        <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>Site Surveys for Acquiring Lands</h1>
+        {/* <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>Site Surveys for Acquiring Lands</h1>
 
         <div className='w-full justify-center gap-2 grid grid-cols-2 md:grid-cols-3 md:grid-cols-2'>
 
@@ -89,50 +89,58 @@ const PotfolioAndGallery = () => {
           <img className='w-full' src='/site-surveys/10.jpeg' />
           <img className='w-full' src='/site-surveys/12.jpeg' />
 
-        </div>
+        </div> */}
 
         <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>Telecom Solutions & Services</h1>
 
-        <div className='w-full justify-centergap-2 grid grid-cols-2 md:grid-cols-3'>
+        <div className='w-full justify-center gap-2 grid grid-cols-1 md:grid-cols-3'>
 
-          <div className='flex flex gap-4 md:gap-2'>
             <img className='w-full lg:w-auto' src='/maintanence-work/1.jpeg' />
             <img className='w-full lg:w-auto' src='/maintanence-work/2.jpeg' />
             <img className='w-full lg:w-auto' src='/maintanence-work/3.jpeg' />
-          </div>
+
+        </div>
+        
+        <div className='w-full justify-center gap-2 grid grid-cols-1 md:grid-cols-3 pt-2 md:pt-4'>
+
+            <img className='w-full lg:w-auto' src='/maintanence-work/4.jpeg' />
+            <img className='w-full lg:w-auto' src='/maintanence-work/5.jpeg' />
+            <img className='w-full lg:w-auto' src='/maintanence-work/6.jpeg' />
 
         </div>
 
         <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>Home Construction & Renovation</h1>
 
-        <div className='w-full justify-center gap-2 grid grid-cols-1 md:grid-cols-3 md:grid-cols-2'>
+        <div className='w-full justify-center gap-2 grid grid-cols-2 md:grid-cols-2'>
 
-          <img className='w-full' src='/home-construction/10.jpeg' />
-          <img className='w-full' src='/home-construction/4.jpeg' />
-          <img className='w-full' src='/home-construction/2.jpeg' />
-
-        </div>
-
-        <div className='w-full justify-center gap-2 grid grid-cols-2 mt-4 md:grid-cols-4 md:grid-cols-2'>
-
-          <img className='w-full' src='/home-construction/6.jpg' />
-          <img className='w-full' src='/home-construction/7.jpg' />
-          <img className='w-full' src='/home-construction/8.jpg' />
-          <img className='w-full' src='/home-construction/9.jpg' />
+          <img className='w-full' src='/home-construction/2.jpg' />
+          <img className='w-full' src='/home-construction/3.jpg' />
+          <img className='w-full' src='/home-construction/4.jpg' />
+          <img className='w-full' src='/home-construction/5.jpg' />
 
         </div>
 
-        {/* <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>DB & Sunshade Fabrications</h1>
+        <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>DB & Sunshade Fabrications</h1>
 
-        <div className='w-full justify-center gap-4 grid grid-cols-1 md:grid-cols-3 md:grid-cols-2'>
+        <div className='w-full justify-center gap-4 grid grid-cols-1 md:grid-cols-2'>
 
+          <img className='w-full' src='/db-sunshade/1.jpeg' />
           <img className='w-full' src='/db-sunshade/2.jpeg' />
-          <img className='w-full' src='/db-sunshade/12.jpeg' />
-          <img className='w-full' src='/db-sunshade/16.jpg' />
-          <img className='w-full' src='/db-sunshade/4.jpeg' />
-          <img className='w-full' src='/db-sunshade/6.jpeg' />
-          <img className='w-full' src='/db-sunshade/7.jpeg' />
-        </div> */}
+        </div>
+        
+        <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>Pole Light Installation</h1>
+
+        <div className='w-full justify-center gap-4 grid grid-cols-1 md:grid-cols-2'>
+          <img className='w-full' src='/pole-light/1.jpeg' />
+          <img className='w-full' src='/pole-light/2.jpeg' />
+        </div>
+
+        <div className='w-full justify-center gap-4 grid grid-cols-2 md:grid-cols-4'>
+          <img className='w-full' src='/pole-light/3.jpeg' />
+          <img className='w-full' src='/pole-light/4.jpeg' />
+          <img className='w-full' src='/pole-light/5.jpeg' />
+          <img className='w-full' src='/pole-light/6.jpeg' />
+        </div>
 
       </div>
 

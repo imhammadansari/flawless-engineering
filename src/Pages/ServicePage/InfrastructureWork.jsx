@@ -3,6 +3,10 @@ import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const services = [
   {
@@ -50,6 +54,8 @@ const whyChooseUs = [
   },
 ];
 
+const slideImages = ["/services-page/telecom.jpeg"];
+
 const InfrastructureWork = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -60,27 +66,48 @@ const InfrastructureWork = () => {
       <Header />
 
       {/* Hero */}
-      <section
-        className="relative h-[70vh] flex items-center justify-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/services-page/telecom.jpeg')" }}
-      >
-        <div className="absolute inset-0 bg-black/50"></div>
-        <h1 className="relative z-10 text-white text-4xl md:text-6xl font-bold text-center">
+      <div className="w-full relative">
+        <Swiper
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          loop={true}
+          modules={[Navigation, Autoplay]}
+          className="w-full h-[300px] sm:h-[400px] md:h-[600px]"
+        >
+          {slideImages.map((img, index) => (
+            <SwiperSlide key={index}>
+              <div className="relative w-full h-full">
+                <img
+                  src={img}
+                  alt={`Slide ${index + 1}`}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                  <motion.h1
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1 }}
+                    className="text-white text-center text-3xl sm:text-4xl md:text-5xl font-bold px-4"
+                  >
 
-          <TypeAnimation
-            sequence={[
-              "INFRASTRUCTURE WORK",  // type
-              2000,        // wait 2s
-              "",          // clear
-              1000,        // wait before retyping
-            ]}
-            wrapper="span"
-            cursor={true}
-            speed={60}
-            repeat={Infinity} // infinite loop
-          />
-        </h1>
-      </section>
+                    <TypeAnimation
+                      sequence={[
+                        "Infrastructure Work",  // type
+                        2000,        // wait 2s
+                        "",          // clear
+                        1000,        // wait before retyping
+                      ]}
+                      wrapper="span"
+                      cursor={true}
+                      speed={60}
+                      repeat={Infinity} // infinite loop
+                    />
+                  </motion.h1>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
 
       {/* Intro & Second Paragraph */}
       <section className="px-6 md:px-20 py-12">
@@ -176,16 +203,12 @@ const InfrastructureWork = () => {
         </h2>
 
         <div className="columns-1 md:columns-2 gap-4 space-y-4">
-          <img src="/infrastructure-work/1.jpeg" alt="Gallery" className="rounded-md shadow-md" />
-          <img src="/infrastructure-work/2.jpeg" alt="Gallery" className="rounded-md shadow-md" />
+          <img src="/infrastructure-work/2.jpg" alt="Gallery" className="rounded-md shadow-md" />
+          <img src="/infrastructure-work/3.jpg" alt="Gallery" className="rounded-md shadow-md" />
+          <img src="/infrastructure-work/4.jpg" alt="Gallery" className="rounded-md shadow-md" />
+          <img src="/infrastructure-work/5.jpg" alt="Gallery" className="rounded-md shadow-md" />
         </div>
 
-        <div className="columns-2 md:columns-4 gap-4 space-y-4 pt-2 md:pt-4">
-          <img src="/infrastructure-work/3.jpeg" alt="Gallery" className="rounded-md shadow-md" />
-          <img src="/infrastructure-work/4.jpeg" alt="Gallery" className="rounded-md shadow-md" />
-          <img src="/infrastructure-work/5.jpeg" alt="Gallery" className="rounded-md shadow-md" />
-          <img src="/infrastructure-work/6.jpeg" alt="Gallery" className="rounded-md shadow-md" />
-        </div>
 
       </section>
 

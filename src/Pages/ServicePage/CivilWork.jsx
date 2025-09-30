@@ -37,10 +37,9 @@ const CivilWork = () => {
   }, []);
 
   const slideImages = [
-    "/banner/6.jpeg",
-    "/banner/3.jpeg",
-    "/banner/2.jpg",
-    "/banner/11.jpg",
+    "/banner/civil-work-banner.jpg",
+    "/banner/construction-two.jpg",
+    "/banner/construction-three.jpg",
   ];
 
   return (

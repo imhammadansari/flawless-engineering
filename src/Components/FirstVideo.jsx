@@ -2,7 +2,7 @@ import React from 'react';
 
 const FirstVideo = () => {
   return (
-    <section className="w-full min-h-screen bg-gradient-to-br from-[rgba(40,123,172,1)] to-[rgb(37,83,177)] flex items-center justify-center px-4 my-6 md:my-12">
+    <section className="w-full min-h-screen bg-gradient-to-br from-[rgba(40,123,172,1)] to-[#472c75] flex items-center justify-center px-4 my-6 md:my-12">
       <div className="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center py-6 gap-10">
 
         {/* Text Content */}

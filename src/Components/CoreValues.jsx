@@ -5,10 +5,10 @@ const CoreValues = () => {
     return (
         <>
         <div className='w-full flex flex-col bg-gray-100 my-6 md:my-10 py-20 md:py-24 px-4 sm:px-3 md:px-28 items-center'>
-             <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-4 md:pb-7 text-center text-[rgb(37,83,177)]'>
+             <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-4 md:pb-7 text-center text-[#472c75]'>
     CORE VALUES
   </h1>
-  <div className="w-24 h-1 bg-[rgb(37,83,177)] rounded mb-6 md:mb-10"></div>
+  <div className="w-24 h-1 bg-[#472c75] rounded mb-6 md:mb-10"></div>
 
   <p className='text-[rgb(38,50,70)] pt-2 pb-10'>We are laying down strong foundations and core principles to strengthen Ishaal Enterprises as a more reliable, more resilient, and more trusted service provider in Pakistan’s engineering and telecom sectors. As part of this ongoing commitment, we follow five core values that reflect our collective belief, define our professional culture, and guide how we operate and grow every day.</p>
 

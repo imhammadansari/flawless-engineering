@@ -16,6 +16,7 @@ import DgRental from './Pages/ServicePage/DgRental'
 import GeneralProducts from './Pages/ServicePage/GeneralProducts'
 import Gallery from './Pages/MediaPage.jsx/Gallery'
 import IsoCertificatesPage from './Pages/MediaPage.jsx/IsoCertificatesPage'
+import PoleLightConstruction from './Pages/ServicePage/PoleLightConstruction'
 
 function App() {
 
@@ -35,7 +36,8 @@ function App() {
         <Route path='/services/db-sunshade-fabrics' element = {<DBAndSunshade />} />
         <Route path='/services/home-construction-renovation' element = {<HomeConstruction />} />
         <Route path='/services/dg-rental' element = {<DgRental />} />
-        <Route path='/services/general-products' element = {<GeneralProducts />} />
+        <Route path='/services/dg-rental' element = {<DgRental />} />
+        <Route path='/services/pole-light' element = {<PoleLightConstruction />} />
         <Route path='/media/gallery' element = {<Gallery />} />
         <Route path='/media/iso-certificates' element = {<IsoCertificatesPage />} />
 

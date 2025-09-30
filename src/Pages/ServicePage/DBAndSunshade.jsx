@@ -41,7 +41,7 @@ const DBAndSunshade = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const slideImages = ["/db-sunshade/16.jpg"];
+  const slideImages = ["/db-sunshade/2.jpeg"];
 
   return (
     <>
@@ -199,8 +199,6 @@ const DBAndSunshade = () => {
           <div className="columns-2 md:columns-2 gap-4 space-y-4">
             <img src="/db-sunshade/1.jpeg" className="rounded-md shadow-md" />
             <img src="/db-sunshade/2.jpeg" className="rounded-md shadow-md" />
-            <img src="/db-sunshade/3.jpeg" className="rounded-md shadow-md" />
-            <img src="/db-sunshade/4.jpeg" className="rounded-md shadow-md" />
           </div>
         </section>
 
