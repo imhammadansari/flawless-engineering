@@ -137,36 +137,40 @@ const CivilWork = () => {
         </section>
 
         {/* Where We Work */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex flex-col gap-4"
-          >
-            <h2 className="font-bold text-2xl">Where We Work</h2>
-            <p>Flawless Engineering has executed Civil Work projects across Pakistan, covering:</p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Remote northern zones like Chitral</li>
-              <li>Deserts and security-sensitive areas like Tharparkar</li>
-              <li>Industrial hubs such as Jamshoro and Nooriabad</li>
-              <li>Urban centers like Karachi, Hyderabad, and Sukkur</li>
-            </ul>
-          </motion.div>
+<section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6">
+  <motion.div
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+    className="flex flex-col gap-4"
+  >
+    <h2 className="font-bold text-2xl">Where We Work</h2>
+    <p>
+      Flawless Engineering has executed Civil Work projects across Pakistan,
+      covering:
+    </p>
+    <ul className="list-disc pl-6 space-y-1">
+      <li>Remote northern zones like Chitral and Gilgit</li>
+      <li>Mountain regions including Upper Dir and Lower Dir</li>
+      <li>Agencies such as Urban Agency and Bajaur Agency</li>
+      <li>Valleys and districts like Swat and Buner</li>
+    </ul>
+  </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex justify-center"
-          >
-            <img
-              className="w-full md:w-2/3 rounded-lg shadow-lg"
-              src="/civil-page/main.jpeg"
-              alt="Civil Works"
-            />
-          </motion.div>
-        </section>
+  <motion.div
+    initial={{ opacity: 0, x: 50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+    className="flex justify-center"
+  >
+    <img
+      className="w-full md:w-2/3 rounded-lg shadow-lg"
+      src="/civil-page/main.jpeg"
+      alt="Civil Works"
+    />
+  </motion.div>
+</section>
+
 
         {/* Closing */}
         <motion.p

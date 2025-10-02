@@ -144,40 +144,65 @@ const DBAndSunshade = () => {
         </section>
 
         {/* Where We Work */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex flex-col gap-4"
-          >
-            <h2 className="font-bold text-2xl">Where We Work</h2>
-            <p>
-              Flawless Engineering has successfully delivered DB & Sunshade
-              projects in diverse locations across Pakistan:
-            </p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Remote telecom sites in Chitral & Tharparkar</li>
-              <li>High-humidity regions like Karachi</li>
-              <li>Industrial zones such as Jamshoro</li>
-              <li>Educational & healthcare setups (IBA, SIUT, PPHI)</li>
-              <li>Banking clients including NBP & Mobilink Bank</li>
-            </ul>
-          </motion.div>
+<section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-10">
+  {/* Left Side - Text */}
+  <motion.div
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+    viewport={{ once: true, amount: 0.3 }}
+    className="flex flex-col gap-6"
+  >
+    <h2 className="font-bold text-3xl md:text-4xl text-gray-800">
+      Where We Work
+    </h2>
+    <p className="text-gray-600 leading-relaxed">
+      <strong>Flawless Engineering</strong> has a strong footprint across 
+      Pakistan, delivering reliable DB & Sunshade Fabrication projects in 
+      challenging terrains and diverse regions.
+    </p>
 
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex justify-center"
-          >
-            <img
-              className="w-full md:w-2/3 rounded-lg shadow-lg"
-              src="/services/sunshade-db.png"
-              alt="DB and Sunshade"
-            />
-          </motion.div>
-        </section>
+    {/* Locations */}
+    <ul className="grid grid-cols-2 gap-3 text-gray-700 list-disc pl-5">
+      <li>Upper Dir</li>
+      <li>Lower Dir</li>
+      <li>Urban Agency</li>
+      <li>Bajaur Agency</li>
+      <li>Swat</li>
+      <li>Buner</li>
+      <li>Chitral</li>
+      <li>Gilgit</li>
+    </ul>
+
+    {/* Clients */}
+    <div className="mt-6">
+      <h3 className="font-semibold text-xl text-gray-800 mb-3">Our Clients</h3>
+      <ul className="flex flex-wrap gap-3 text-gray-700">
+        <li className="bg-gray-100 px-4 py-2 rounded-md shadow-sm">Zong 4G</li>
+        <li className="bg-gray-100 px-4 py-2 rounded-md shadow-sm">Jazz</li>
+        <li className="bg-gray-100 px-4 py-2 rounded-md shadow-sm">Nokia</li>
+        <li className="bg-gray-100 px-4 py-2 rounded-md shadow-sm">Engro Enfrashare</li>
+        <li className="bg-gray-100 px-4 py-2 rounded-md shadow-sm">DHA Rawalpindi</li>
+      </ul>
+    </div>
+  </motion.div>
+
+  {/* Right Side - Image */}
+  <motion.div
+    initial={{ opacity: 0, x: 50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+    viewport={{ once: true, amount: 0.3 }}
+    className="flex justify-center"
+  >
+    <img
+      className="w-full md:w-4/5 rounded-lg shadow-lg border border-gray-200"
+      src="/services/sunshade-db.png"
+      alt="DB and Sunshade Fabrication"
+    />
+  </motion.div>
+</section>
+
 
         {/* Closing Statement */}
         <motion.p

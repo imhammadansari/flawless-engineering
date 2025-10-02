@@ -16,12 +16,12 @@ const HomePage = () => {
     <Banner />
     <OurCapability />
     {/* <About /> */}
+    <Partners />
     <Services />
     <WhyMe />
     <CoreValues />
     {/* <PotfolioAndGallery /> */}
     {/* <Achievements /> */}
-    <Partners />
     {/* <ContactBanner /> */}
     <Footer />
     </>

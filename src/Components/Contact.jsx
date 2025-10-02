@@ -80,7 +80,11 @@ const Contact = () => {
                     <div className='w-full h-full flex flex-col text-center gap-2 items-center px-2 md:px-4'>
                         <FaPhoneAlt className='text-6xl'/>
                         <h1 className='text-2xl md:text-2xl '>Call Us</h1>
-                            <p className='text-base text-gray-600'></p>
+                            <div className='flex flex-col'>
+                                <p className='text-base text-gray-600'>0332-5070143</p>
+                            <p className='text-base text-gray-600'>0318-5536677</p>
+
+                            </div>
 
                     </div>
 

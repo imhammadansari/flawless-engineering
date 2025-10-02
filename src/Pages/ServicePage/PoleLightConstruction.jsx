@@ -48,7 +48,7 @@ const PoleLightConstruction = () => {
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop={true}
           modules={[Navigation, Autoplay]}
-          className="w-full h-[300px] sm:h-[400px] md:h-[600px]"
+          className="w-full h-[300px] sm:h-[400px] md:h-[700px] 2xl:h-[900px]"
         >
           {slideImages.map((img, index) => (
             <SwiperSlide key={index}>
@@ -132,40 +132,44 @@ const PoleLightConstruction = () => {
         </section>
 
         {/* Where We Work */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex flex-col gap-4"
-          >
-            <h2 className="font-bold text-2xl">Where We Work</h2>
-            <p>
-              We execute pole light installation projects in urban, rural, and
-              industrial areas across Pakistan — ensuring safe, reliable, and
-              sustainable outdoor lighting.
-            </p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Highways, motorways, and main roads</li>
-              <li>Residential societies and gated communities</li>
-              <li>Commercial and industrial zones</li>
-              <li>Parks, public areas, and institutions</li>
-            </ul>
-          </motion.div>
+        {/* Where We Work */}
+<section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6">
+  <motion.div
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+    className="flex flex-col gap-4"
+  >
+    <h2 className="font-bold text-2xl">Where We Work</h2>
+    <p>
+      We execute pole light installation projects in urban, rural, and
+      industrial areas across Pakistan — ensuring safe, reliable, and
+      sustainable outdoor lighting.
+    </p>
+    <ul className="list-disc pl-6 space-y-1">
+      <li>Highways, motorways, and main roads</li>
+      <li>Residential societies and gated communities</li>
+      <li>Commercial and industrial zones</li>
+      <li>Parks, public areas, and institutions</li>
+      <li>Upper Dir, Lower Dir, Urban Agency, Bajaur Agency</li>
+      <li>Swat, Buner, Chitral, and Gilgit</li>
+    </ul>
+  </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex justify-center"
-          >
-            <img
-              className="w-full md:w-4/5 rounded-lg shadow-lg"
-              src="/pole-light/8.jpg"
-              alt="Pole Light Installation"
-            />
-          </motion.div>
-        </section>
+  <motion.div
+    initial={{ opacity: 0, x: 50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+    className="flex justify-center"
+  >
+    <img
+      className="w-full md:w-4/5 rounded-lg shadow-lg"
+      src="/pole-light/8.jpg"
+      alt="Pole Light Installation"
+    />
+  </motion.div>
+</section>
+
 
         {/* Closing */}
         <motion.p

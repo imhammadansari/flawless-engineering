@@ -21,12 +21,12 @@ const Footer = () => {
           <h1 className='font-bold text-lg md:text-base text-gray-600 lg:text-lg text-start pb-2'>Flawless Engineering</h1>
           <div className='flex flex-col text-sm lg:text-sm text-gray-600 text-start gap-2'>
             <Link className='hover:text-[#472c75]' to='/services/civil-work'>Civil Work Construction</Link>
-            <Link className='hover:text-[#472c75]' to='/services/site-surveys'>Site Surveys for Acquiring Lands</Link>
+            {/* <Link className='hover:text-[#472c75]' to='/services/site-surveys'>Site Surveys for Acquiring Lands</Link> */}
             <Link className='hover:text-[#472c75]' to='/services/pole-light'>Pole Light Installtion</Link>
             <Link className='hover:text-[#472c75]' to='/services/solar-work'>Solar Structure & Panel Installation</Link>
             <Link className='hover:text-[#472c75]' to='/services/home-construction-renovation'>Home Construction & Renovation</Link>
             <Link className='hover:text-[#472c75]' to='/services/db-sunshade-fabrics'>DB & Sunshade Fabrications</Link>
-            <Link className='hover:text-[#472c75]' to='/services/dg-rental'>Diesel Generators Rent</Link>
+            {/* <Link className='hover:text-[#472c75]' to='/services/dg-rental'>Diesel Generators Rent</Link> */}
             <Link className='hover:text-[#472c75]' to='/services/telecom'>Telecom Solutions & Services</Link>
             <Link className='hover:text-[#472c75]' to='/services/infrastructure-work'>Infrastructure Work</Link>
             {/* <Link className='hover:text-[#472c75]' to='/services/losrs-surveys'>LOSRs Surveys MW Planning & CW Design</Link>
@@ -47,13 +47,17 @@ const Footer = () => {
 
             <div className='flex gap-4 pt-2 lg:pt-0'>
               <FaPhoneAlt className='text-base' />
-              <p className='text-base lg:text-sm w-4/5'></p>
+              <div className='flex flex-col gap-1 w-full'>
+                <p className='text-base lg:text-sm w-4/5'>0332-5070143</p>
+                <p className='text-base lg:text-sm w-4/5'>0318-5536677</p>
+
+              </div>
             </div>
 
-            <div className='flex gap-4 pt-2 lg:pt-0'>
+            {/* <div className='flex gap-4 pt-2 lg:pt-0'>
               <MdEmail className='text-2xl pt-1 lg:pt-0' />
-              {/* <p className='text-base lg:text-sm w-4/5'>support@ishalenterprises.com.pk</p> */}
-            </div>
+              <p className='text-base lg:text-sm w-4/5'>support@ishalenterprises.com.pk</p>
+            </div> */}
           </div>
         </div>
 

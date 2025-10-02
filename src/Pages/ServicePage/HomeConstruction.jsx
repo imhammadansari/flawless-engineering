@@ -131,40 +131,43 @@ const HomeConstruction = () => {
         </section>
 
         {/* Where We Work */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex flex-col gap-4"
-          >
-            <h2 className="font-bold text-2xl">Where We Work</h2>
-            <p>
-              Flawless Engineering executes residential projects across urban
-              and remote areas — from Karachi and Hyderabad to Jamshoro,
-              Nooriabad and demanding zones like Chitral and Tharparkar.
-            </p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Urban developments and gated communities</li>
-              <li>Individual homes and multi-unit residences</li>
-              <li>Staff housing for institutions and corporate facilities</li>
-              <li>Renovations in constrained or heritage sites</li>
-            </ul>
-          </motion.div>
+<section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6">
+  <motion.div
+    initial={{ opacity: 0, x: -50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+    className="flex flex-col gap-4"
+  >
+    <h2 className="font-bold text-2xl">Where We Work</h2>
+    <p>
+      Flawless Engineering executes residential projects across both urban 
+      and remote areas — from <strong>Upper Dir</strong> and <strong>Lower Dir</strong> 
+      to <strong>Swat</strong>, <strong>Buner</strong>, <strong>Chitral</strong>, 
+      <strong>Gilgit</strong>, and demanding regions like 
+      <strong> Urban Agency</strong> and <strong>Bajaur Agency</strong>.
+    </p>
+    <ul className="list-disc pl-6 space-y-1">
+      <li>Urban developments and gated communities</li>
+      <li>Individual homes and multi-unit residences</li>
+      <li>Staff housing for institutions and corporate facilities</li>
+      <li>Renovations in constrained or heritage sites</li>
+    </ul>
+  </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex justify-center"
-          >
-            <img
-              className="w-full md:w-4/5 rounded-lg shadow-lg"
-              src="/home-construction/4.jpg"
-              alt="Home Construction"
-            />
-          </motion.div>
-        </section>
+  <motion.div
+    initial={{ opacity: 0, x: 50 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+    className="flex justify-center"
+  >
+    <img
+      className="w-full md:w-4/5 rounded-lg shadow-lg"
+      src="/home-construction/4.jpg"
+      alt="Home Construction"
+    />
+  </motion.div>
+</section>
+
 
         {/* Closing */}
         <motion.p
