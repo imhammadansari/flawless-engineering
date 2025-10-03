@@ -6,7 +6,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 
 const IsoCertificates = () => {
   const slideImages = [
-    "/banner/10.jpeg",
+    "/certificates-banner.png",
   ];
   return (
     <>

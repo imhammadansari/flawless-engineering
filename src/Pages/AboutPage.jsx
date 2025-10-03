@@ -79,14 +79,28 @@ const AboutPage = () => {
           <p className='pt-4 lg:text-base text-gray-600'>
             Our core services include:
             <ul className='list-disc pl-6 md:pl-8 pt-2 md:pt-4 font-bold'>
-              <li>Telecom Infrastructure & Fiber Deployment</li>
-              <li>Turnkey Civil Construction Projects</li>
-              <li>Solar Power Systems & Structural Design</li>
-              <li>Custom DB & Power Shelters Fabrication</li>
-              <li>Diesel Generator Rental & Installation</li>
-              <li>General Contracting & Renovation Services</li>
-              <li>Corporate Supplies & Industrial Equipment</li>
-            </ul>
+  <li>
+    Infrastructure Work – <span className="font-normal">End-to-end infrastructure development with precision and durability.</span>
+  </li>
+  <li>
+    Civil Work Construction – <span className="font-normal">Complete civil engineering solutions, from foundations to turnkey projects.</span>
+  </li>
+  <li>
+    Safe City Pole Installation – <span className="font-normal">Specialized in installing poles and structures for Safe City projects, ensuring reliable security infrastructure.</span>
+  </li>
+  <li>
+    Telecom Solutions & Services – <span className="font-normal">Fiber deployment, tower rollouts, and advanced telecom systems.</span>
+  </li>
+  <li>
+    DB & Sunshade Fabrications – <span className="font-normal">Customized distribution boards and durable sunshade structures.</span>
+  </li>
+  <li>
+    Solar Structure & Panel Installation – <span className="font-normal">Sustainable solar solutions, including panel installation and structural design.</span>
+  </li>
+  <li>
+    Home Construction & Renovation – <span className="font-normal">Modern home building and renovation services with quality craftsmanship.</span>
+  </li>
+</ul>
           </p>
 
           <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>

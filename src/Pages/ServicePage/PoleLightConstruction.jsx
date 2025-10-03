@@ -10,7 +10,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const services = [
   {
-    title: "⚡ Complete Pole Light Installation",
+    title: "⚡ Complete Save City Pole Installation",
     desc: "From foundation to wiring, we provide end-to-end installation of pole lights for streets, highways, societies, and commercial areas.",
   },
   {
@@ -62,7 +62,7 @@ const PoleLightConstruction = () => {
                   <h1 className="text-white text-center text-3xl sm:text-4xl md:text-5xl font-bold">
                     <TypeAnimation
                       sequence={[
-                        "POLE LIGHT INSTALLATION",
+                        "Save City Pole Installation",
                         2000,
                         "",
                         1000,
@@ -91,7 +91,7 @@ const PoleLightConstruction = () => {
             className="md:text-lg leading-relaxed"
           >
             <strong>Flawless Engineering</strong> specializes in professional
-            <strong> Pole Light Installation </strong> services across Pakistan.
+            <strong> Save City Pole Installation </strong> services across Pakistan.
             Our expertise covers everything from design and foundation works to
             wiring, lighting, and ongoing maintenance, ensuring safe and
             reliable street and area illumination.
@@ -142,7 +142,7 @@ const PoleLightConstruction = () => {
   >
     <h2 className="font-bold text-2xl">Where We Work</h2>
     <p>
-      We execute pole light installation projects in urban, rural, and
+      We execute Save City Pole Installation projects in urban, rural, and
       industrial areas across Pakistan — ensuring safe, reliable, and
       sustainable outdoor lighting.
     </p>
@@ -165,7 +165,7 @@ const PoleLightConstruction = () => {
     <img
       className="w-full md:w-4/5 rounded-lg shadow-lg"
       src="/pole-light/8.jpg"
-      alt="Pole Light Installation"
+      alt="Save City Pole Installation"
     />
   </motion.div>
 </section>

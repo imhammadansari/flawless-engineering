@@ -22,7 +22,7 @@ const Header = () => {
     const services = [
         { name: "Infrastructure Work", path: "/services/infrastructure-work" },
         { name: "Civil Work Construction", path: "/services/civil-work" },
-        { name: "Pole Light Installation", path: "/services/pole-light" },
+        { name: "Save City Pole Installation", path: "/services/pole-light" },
         // { name: "Site Surveys for Acquiring Lands", path: "/services/site-surveys" },
         { name: "Telecom Solutions & Services", path: "/services/telecom" },
         // { name: "LOSRs Surveys MW Planning & CW Design", path: "/services/losrs-surveys" },

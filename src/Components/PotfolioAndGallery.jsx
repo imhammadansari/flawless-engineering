@@ -128,7 +128,7 @@ const PotfolioAndGallery = () => {
           <img className='w-full' src='/db-sunshade/2.jpeg' />
         </div>
         
-        <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>Pole Light Installation</h1>
+        <h1 className='text-center text-xl md:text-3xl py-6 md:py-8'>Save City Pole Installation</h1>
 
         <div className='w-full justify-center gap-4 grid grid-cols-1 md:grid-cols-2'>
           <img className='w-full' src='/pole-light/1.jpeg' />

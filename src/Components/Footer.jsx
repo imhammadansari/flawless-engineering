@@ -22,7 +22,7 @@ const Footer = () => {
           <div className='flex flex-col text-sm lg:text-sm text-gray-600 text-start gap-2'>
             <Link className='hover:text-[#472c75]' to='/services/civil-work'>Civil Work Construction</Link>
             {/* <Link className='hover:text-[#472c75]' to='/services/site-surveys'>Site Surveys for Acquiring Lands</Link> */}
-            <Link className='hover:text-[#472c75]' to='/services/pole-light'>Pole Light Installtion</Link>
+            <Link className='hover:text-[#472c75]' to='/services/pole-light'>Pole Light Installation</Link>
             <Link className='hover:text-[#472c75]' to='/services/solar-work'>Solar Structure & Panel Installation</Link>
             <Link className='hover:text-[#472c75]' to='/services/home-construction-renovation'>Home Construction & Renovation</Link>
             <Link className='hover:text-[#472c75]' to='/services/db-sunshade-fabrics'>DB & Sunshade Fabrications</Link>
