@@ -10,14 +10,14 @@ const MenuBar = ({ hideMenu }) => {
    const services = [
         { name: "Infrastructure Work", path: "/services/infrastructure-work" },
         { name: "Civil Work Construction", path: "/services/civil-work" },
-        { name: "Site Surveys for Acquiring Lands", path: "/services/site-surveys" },
+        // { name: "Site Surveys for Acquiring Lands", path: "/services/site-surveys" },
         { name: "Telecom Solutions & Services", path: "/services/telecom" },
-        { name: "LOSRs Surveys MW Planning & CW Design", path: "/services/losrs-surveys" },
-        { name: "Diesel Generator Rent", path: "/services/dg-rental" },
+        // { name: "LOSRs Surveys MW Planning & CW Design", path: "/services/losrs-surveys" },
+        // { name: "Diesel Generator Rent", path: "/services/dg-rental" },
         { name: "DB & Sunshade Fabrications", path: "/services/db-sunshade-fabrics" },
         { name: "Solar Structure & Panel Installation", path: "/services/solar-work" },
         { name: "Home Costruction & Renovation", path: "/services/home-construction-renovation" },
-        { name: "General Products Supply", path: "/services/general-products" },
+        // { name: "General Products Supply", path: "/services/general-products" },
     ];
 
   const mediaItems = [
