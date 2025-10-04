@@ -54,10 +54,10 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* <div className='flex gap-4 pt-2 lg:pt-0'>
+             <div className='flex gap-4 pt-2 lg:pt-0'>
               <MdEmail className='text-2xl pt-1 lg:pt-0' />
-              <p className='text-base lg:text-sm w-4/5'>support@ishalenterprises.com.pk</p>
-            </div> */}
+              <p className='text-base lg:text-sm w-4/5'>alishoujah96@gmail.com</p>
+            </div> 
           </div>
         </div>
 
