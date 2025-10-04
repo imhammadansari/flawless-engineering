@@ -166,7 +166,7 @@ const DBAndSunshade = () => {
     <ul className="grid grid-cols-2 gap-3 text-gray-700 list-disc pl-5">
       <li>Upper Dir</li>
       <li>Lower Dir</li>
-      <li>Urban Agency</li>
+      <li>Kuram Agency</li>
       <li>Bajaur Agency</li>
       <li>Swat</li>
       <li>Buner</li>
