@@ -152,7 +152,7 @@ const CivilWork = () => {
     <ul className="list-disc pl-6 space-y-1">
       <li>Remote northern zones like Chitral, Swat, Bunir and Gilgit</li>
       <li>Mountain regions including Upper Dir and Lower Dir</li>
-      <li>Agencies such as Urban Agency and Bajaur Agency</li>
+      <li>Agencies such as Kuram Agency and Bajaur Agency</li>
       <li>Valleys and districts like Swat and Buner</li>
     </ul>
   </motion.div>
