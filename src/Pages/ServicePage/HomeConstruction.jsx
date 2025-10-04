@@ -144,7 +144,7 @@ const HomeConstruction = () => {
       and remote areas — from <strong>Upper Dir</strong> and <strong>Lower Dir</strong> 
       to <strong>Swat</strong>, <strong>Buner</strong>, <strong>Chitral</strong>, 
       <strong>Gilgit</strong>, and demanding regions like 
-      <strong> Urban Agency</strong> and <strong>Bajaur Agency</strong>.
+      <strong> Kuram Agency</strong> and <strong>Bajaur Agency</strong>.
     </p>
     <ul className="list-disc pl-6 space-y-1">
       <li>Urban developments and gated communities</li>
