@@ -73,7 +73,7 @@ const Contact = () => {
                     <div className='w-full h-full flex flex-col text-center gap-2 items-center px-2 md:px-4'>
                         <MdEmail className='text-6xl'/>
                         <h1 className='text-2xl md:text-2xl '>Email</h1>
-                            <p className='text-base text-gray-600'></p>
+                            <p className='text-base text-gray-600'>alishoujah96@gmail.com</p>
 
                     </div>
                     
