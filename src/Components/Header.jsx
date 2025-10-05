@@ -35,7 +35,7 @@ const Header = () => {
 
     const mediaItems = [
         { name: "Gallery", path: "/media/gallery" },
-        { name: "ISO Certificates", path: "/media/iso-certificates" }
+        { name: "Certificates", path: "/media/iso-certificates" }
     ];
 
     return (

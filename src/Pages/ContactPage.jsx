@@ -14,7 +14,7 @@ const ContactPage = () => {
     <>
     <Header />
     <Contact />
-    <GoogleMaps />
+    {/* <GoogleMaps /> */}
     <Footer />
     </>
   )

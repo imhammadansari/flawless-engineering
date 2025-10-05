@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
 
              <div className='flex gap-4 pt-2 lg:pt-0'>
-              <MdEmail className='text-2xl pt-1 lg:pt-0' />
+              <MdEmail className='text-[21px] lg:text-lg pt-1 lg:pt-0' />
               <p className='text-base lg:text-sm w-4/5'>alishoujah96@gmail.com</p>
             </div> 
           </div>

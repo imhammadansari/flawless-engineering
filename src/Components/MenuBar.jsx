@@ -22,7 +22,7 @@ const MenuBar = ({ hideMenu }) => {
 
   const mediaItems = [
     { name: "Gallery", path: "/media/gallery" },
-    { name: "ISO Certificates", path: "/media/iso-certificates" }
+    { name: "Certificates", path: "/media/iso-certificates" }
   ];
 
   const handleNavigate = (path) => {
