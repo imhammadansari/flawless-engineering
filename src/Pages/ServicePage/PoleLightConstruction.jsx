@@ -10,7 +10,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const services = [
   {
-    title: "⚡ Complete Save City Pole Installation",
+    title: "⚡ Complete Safe City Pole Installation",
     desc: "From foundation to wiring, we provide end-to-end installation of pole lights for streets, highways, societies, and commercial areas.",
   },
   {
@@ -62,7 +62,7 @@ const PoleLightConstruction = () => {
                   <h1 className="text-white text-center text-3xl sm:text-4xl md:text-5xl font-bold">
                     <TypeAnimation
                       sequence={[
-                        "Save City Pole Installation",
+                        "Safe City Pole Installation",
                         2000,
                         "",
                         1000,
@@ -91,7 +91,7 @@ const PoleLightConstruction = () => {
             className="md:text-lg leading-relaxed"
           >
             <strong>Flawless Engineering</strong> specializes in professional
-            <strong> Save City Pole Installation </strong> services across Pakistan.
+            <strong> Safe City Pole Installation </strong> services across Pakistan.
             Our expertise covers everything from design and foundation works to
             wiring, lighting, and ongoing maintenance, ensuring safe and
             reliable street and area illumination.
@@ -142,7 +142,7 @@ const PoleLightConstruction = () => {
   >
     <h2 className="font-bold text-2xl">Where We Work</h2>
     <p>
-      We execute Save City Pole Installation projects in urban, rural, and
+      We execute Safe City Pole Installation projects in urban, rural, and
       industrial areas across Pakistan — ensuring safe, reliable, and
       sustainable outdoor lighting.
     </p>
