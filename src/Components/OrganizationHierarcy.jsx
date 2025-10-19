@@ -9,7 +9,7 @@ const OrganizationHierarcy = () => {
 
 
             <div>
-                <img className='w-auto' src='/orga-hiarcy.png' />
+                <img className='w-auto' src='/flawless hiearcy.png' />
             </div>
 
         </div>

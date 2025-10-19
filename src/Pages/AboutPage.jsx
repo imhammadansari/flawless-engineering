@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Header from '../Components/Header';
 import CoreValues from '../Components/CoreValues';
 import Footer from '../Components/Footer'
-import Statistics from '../Components/Statistics';
 import OrganizationHierarcy from '../Components/OrganizationHierarcy';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -166,7 +165,7 @@ const AboutPage = () => {
 
 
 
-      {/* <OrganizationHierarcy /> */}
+      <OrganizationHierarcy />
 
 
       <div className='w-full flex flex-col my-24 md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
