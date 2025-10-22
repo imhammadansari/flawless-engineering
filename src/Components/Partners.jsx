@@ -46,6 +46,7 @@ const Partners = () => {
               { src: "/clients/jazz-logo.png", w: "w-[5rem] md:w-[12rem]" },
               { src: "/clients/engro.png", w: "w-[8rem] md:w-[11rem]" },
               { src: "/clients/nrtc.png", w: "w-[6rem] md:w-[7rem]" },
+              { src: "/clients/daewoo.png", w: "w-[6rem] md:w-[7rem]" },
               { src: "/clients/dha.png", w: "w-[5rem] md:w-[6rem]" },
             ].map((client, index) => (
               <SwiperSlide

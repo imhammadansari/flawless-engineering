@@ -61,59 +61,69 @@ const AboutPage = () => {
 
 
       <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pt-10 md:pt-8 px-4 md:px-6 lg:px-8 items-center justify-center'>
-        <div className='w-full md:w-4/5 h-full flex flex-col'>
+        <div className="w-full md:w-4/5 mx-auto h-full flex flex-col px-4 md:px-6 lg:px-10 text-gray-700">
 
-          <h1 className='text-3xl sm:text-4xl lg:text-4xl py-6 md:py-14 xl:text-5xl pb-1 text-center text-[#472c75]'>
-            FLAWLESS ENGINEERING
-          </h1>
+  {/* Heading */}
+  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-[#472c75] py-6 md:py-12 tracking-wide">
+    FLAWLESS ENGINEERING
+  </h1>
 
-          <p className='pt-2 md:pt-4 text-sm md:text-base text-gray-600'>
-            Flawless Engineering is a forward-thinking infrastructure and engineering company redefining precision, performance, and professionalism. With a legacy rooted in quality, we specialize in delivering impactful, end-to-end solutions across telecom, energy, and civil infrastructure sectors.
-          </p>
+  {/* Intro */}
+  <div className="space-y-4 text-sm md:text-base leading-relaxed">
+    <p>
+      <span className="font-semibold text-[#472c75]">Flawless Engineering</span> is a forward-thinking infrastructure and engineering company redefining precision, performance, and professionalism. With a legacy rooted in quality, we deliver impactful, end-to-end solutions across telecom, energy, and civil infrastructure sectors.
+    </p>
 
-          <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
-            Established with a mission to build smarter, faster, and more efficiently, Flawless Engineering has consistently met the evolving demands of modern infrastructure. From telecom tower rollouts to solar integrations, our work is guided by innovation, safety, and sustainability.
-          </p>
+    <p>
+      Established in <span className="font-semibold text-[#472c75]">September 2023</span>, our mission is to build smarter, faster, and more efficiently. From telecom tower rollouts to solar integrations, our work is guided by innovation, safety, and sustainability.
+    </p>
+  </div>
 
-          <p className='pt-4 lg:text-base text-gray-600'>
-            Our core services include:
-            <ul className='list-disc pl-6 md:pl-8 pt-2 md:pt-4 font-bold'>
-  <li>
-    Infrastructure Work – <span className="font-normal">End-to-end infrastructure development with precision and durability.</span>
-  </li>
-  <li>
-    Civil Work Construction – <span className="font-normal">Complete civil engineering solutions, from foundations to turnkey projects.</span>
-  </li>
-  <li>
-    Safe City Pole Installation – <span className="font-normal">Specialized in installing poles and structures for Safe City projects, ensuring reliable security infrastructure.</span>
-  </li>
-  <li>
-    Telecom Solutions & Services – <span className="font-normal">Fiber deployment, tower rollouts, and advanced telecom systems.</span>
-  </li>
-  <li>
-    DB & Sunshade Fabrications – <span className="font-normal">Customized distribution boards and durable sunshade structures.</span>
-  </li>
-  <li>
-    Solar Structure & Panel Installation – <span className="font-normal">Sustainable solar solutions, including panel installation and structural design.</span>
-  </li>
-  <li>
-    Home Construction & Renovation – <span className="font-normal">Modern home building and renovation services with quality craftsmanship.</span>
-  </li>
-</ul>
-          </p>
+  {/* Divider */}
+  <div className="w-20 h-1 bg-[#472c75] mx-auto my-6 rounded-full"></div>
 
-          <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
-            Trusted by leading names in telecom, energy, and public sector development, Flawless Engineering has delivered milestone projects across Pakistan’s most challenging terrains. We bring together expert teams, advanced tools, and smart planning to deliver on time and beyond expectations.
-          </p>
+  {/* Services */}
+  <div className="mt-4">
+    <h2 className="text-2xl md:text-3xl font-bold text-[#472c75] mb-4 text-center">
+      Our Core Services
+    </h2>
 
-          <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
-            Our name reflects our commitment: Flawless execution, zero compromise. Whether it's a high-capacity fiber network or a solar-powered rural hub, our engineering reflects durability, innovation, and integrity.
-          </p>
+    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 list-disc pl-6 text-gray-700">
+      <li><span className="font-semibold">Infrastructure Work:</span> End-to-end infrastructure development with precision and durability.</li>
+      <li><span className="font-semibold">Civil Work Construction:</span> Complete civil engineering solutions, from foundations to turnkey projects.</li>
+      <li><span className="font-semibold">Safe City Pole Installation:</span> Installation of poles and structures ensuring reliable security infrastructure.</li>
+      <li><span className="font-semibold">Telecom Solutions & Services:</span> Fiber deployment, tower rollouts, and advanced telecom systems.</li>
+      <li><span className="font-semibold">DB & Sunshade Fabrications:</span> Customized distribution boards and durable sunshade structures.</li>
+      <li><span className="font-semibold">Solar Structure & Panel Installation:</span> Sustainable solar solutions, including panel installation and design.</li>
+      <li><span className="font-semibold">Home Construction & Renovation:</span> Modern home building and renovation services with quality craftsmanship.</li>
+      <li><span className="font-semibold">Site Acquisition & NOC Acquiring:</span> Full support for telecom site permissions and NOC documentation.</li>
+      <li><span className="font-semibold">Saaf Suthra Punjab:</span> Active participation in government and private sanitation projects for a cleaner environment.</li>
+      <li><span className="font-semibold">General Supply:</span> Procurement and delivery of engineering, construction, and maintenance materials.</li>
+      <li><span className="font-semibold">Horticulture & Landscape:</span> Designing and maintaining green environments for public and private spaces.</li>
+      <li><span className="font-semibold">Banks Renovation:</span> Interior and exterior renovation of bank branches ensuring professional and secure setups.</li>
+    </ul>
+  </div>
 
-          <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
-            At Flawless Engineering, we don't just construct infrastructure—we construct progress. We believe in empowering industries, communities, and future generations through infrastructure that performs today and sustains tomorrow.
-          </p>
-        </div>
+  {/* Divider */}
+  <div className="w-20 h-1 bg-[#472c75] mx-auto my-8 rounded-full"></div>
+
+  {/* Achievements */}
+  <div className="space-y-4 text-sm md:text-base leading-relaxed">
+    <p>
+      Trusted by leading names in telecom, energy, and public sector development, we’ve delivered milestone projects across Pakistan’s most challenging terrains — including <span className="font-semibold">Saaf Suthra Punjab</span>, <span className="font-semibold">bank renovations</span>, <span className="font-semibold">general supply</span>, and <span className="font-semibold">landscaping initiatives</span>.
+    </p>
+
+    <p>
+      Our name reflects our promise: <span className="italic font-semibold text-[#472c75]">Flawless execution, zero compromise.</span> Whether it's a high-capacity fiber network or a solar-powered rural hub, our engineering reflects durability, innovation, and integrity.
+    </p>
+
+    <p>
+      At Flawless Engineering, we don’t just construct infrastructure — we construct progress. We believe in empowering industries, communities, and future generations through infrastructure that performs today and sustains tomorrow.
+    </p>
+  </div>
+
+</div>
+
 
         {/* CEO Section (unchanged) */}
         <div className="w-full md:w-4/5 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center py-8 gap-6">
@@ -147,7 +157,7 @@ const AboutPage = () => {
               Thank you for your unwavering dedication and trust in this journey.
               <br /><br />
               <span className="font-semibold">With respect and determination,</span><br />
-              <span className="font-bold text-[#472c75]">Mr. Ali Shouja</span>
+              <span className="font-bold text-[#472c75]">Mr. Ali Shoujah</span>
             </p>
           </div>
 

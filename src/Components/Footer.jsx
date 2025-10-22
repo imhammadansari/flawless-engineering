@@ -41,7 +41,7 @@ const Footer = () => {
               <FaHome className='text-2xl' />
               <div className='flex flex-col lg:gap-2'>
                 <strong className='text-base lg:text-sm'>Head Office:</strong>
-                <p className='text-base lg:text-sm'>Zia Masjid  Stop Near, Bakri CNG Qureshi, Plaza, Rawalpindi</p>
+                <p className='text-base lg:text-sm'>Suffiyan Plaza near PSO Pump Highway Kuri Road, Islamabad</p>
               </div>
             </div>
 
